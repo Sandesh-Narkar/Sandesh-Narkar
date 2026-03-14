@@ -1,16 +1,81 @@
-## Hi there 👋
+<h1 align="center">SANDESH CHANDRAKANT NARKAR</h1>
 
-<!--
-**Sandesh-Narkar/Sandesh-Narkar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+BSc IT Student • Web Developer • Data Analyst • Video Editor
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+Building modern web experiences and exploring data-driven solutions
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<hr>
+
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Web+Development;Data+Analysis+with+Python+Pandas;Power+BI+Dashboard+Creation;Creative+Video+Editing;Continuous+Learning+and+Building">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=sandesh-narkar&label=PROFILE+VIEWS&color=grey&style=flat">
+</p>
+
+<hr>
+
+ABOUT
+
+Sandesh Chandrakant Narkar  
+BSc IT student focused on web technologies, data analysis, and digital creativity.  
+Interested in building functional web interfaces and extracting insights from data.
+
+Currently learning
+
+Advanced JavaScript  
+Python Pandas  
+Power BI Data Visualization  
+
+<hr>
+
+TECHNOLOGY STACK
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,python,mysql,figma,git,vscode"/>
+
+</p>
+
+<hr>
+
+PROJECT FOCUS
+
+Web development using HTML CSS JavaScript  
+
+Data analysis using Python and Pandas  
+
+Interactive dashboards with Power BI  
+
+Creative digital media and video editing  
+<hr>
+<h2 align="center">CONTACT</h2>
+
+<p align="center">
+  <a href="mailto:narkarsandesh55@gmail.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" width="50" height="50" style="margin: 0 15px; transition: transform 0.3s ease, box-shadow 0.3s ease; border-radius: 50%;" onmouseover="this.style.transform='scale(1.3) rotate(10deg)'; this.style.filter='drop-shadow(0 0 8px #EA4335)'" onmouseout="this.style.transform='scale(1)'; this.style.filter='none'"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/sandesh-narkar-2339a03a5/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="50" height="50" style="margin: 0 15px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.3) rotate(-10deg)'; this.style.filter='drop-shadow(0 0 8px #0077B5)'" onmouseout="this.style.transform='scale(1)'; this.style.filter='none'"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Sandesh-Narkar" target="_blank">
+    <img src="https://img.icons8.com/fluency/48/github.png" width="50" height="50" style="margin: 0 15px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.3) rotate(10deg)'; this.style.filter='drop-shadow(0 0 8px #ffffff)'" onmouseout="this.style.transform='scale(1)'; this.style.filter='none'"/>
+  </a>
+</p>
+<hr>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake"/>
+</p>
+<hr>
+NOTE
+
+I enjoy transforming creative ideas into functional websites and exploring datasets to discover meaningful insights.
