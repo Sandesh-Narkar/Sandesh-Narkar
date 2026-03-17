@@ -72,10 +72,6 @@ Creative digital media and video editing
   </a>
 </p>
 <hr>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake"/>
-</p>
-<hr>
 NOTE
 
 I enjoy transforming creative ideas into functional websites and exploring datasets to discover meaningful insights.
