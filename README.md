@@ -39,9 +39,9 @@ Power BI Data Visualization
 TECHNOLOGY STACK
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,python,mysql,figma,git,vscode"/>
-
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,flask,mysql,c,cpp,figma,git,github,vscode" style="transition: transform 0.4s ease, filter 0.4s ease;" onmouseover="this.style.transform='rotate(360deg) scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #58a6ff)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'; this.style.filter='none'"/>
+  &nbsp;
+  <img src="https://cdn.simpleicons.org/framer/0055FF" width="48" height="48" style="transition: transform 0.4s ease, filter 0.4s ease; vertical-align: middle;" onmouseover="this.style.transform='rotate(360deg) scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #0055FF)'" onmouseout="this.style.transform='rotate(0deg) scale(1)'; this.style.filter='none'"/>
 </p>
 
 <hr>
