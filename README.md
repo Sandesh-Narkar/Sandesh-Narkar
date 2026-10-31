@@ -1,13 +1,19 @@
+<a id="top"></a>
+
 <div align="center">
 
 <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/banner/6ab0c43d9ff29_neura-x.png?d=1920x557" alt="NEURA X 2026 Global Hackathon 2K26 banner" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:7C3AED&height=170&section=header&text=VisionGuard%20AI%202.0&fontColor=ffffff&fontSize=46&fontAlignY=38&desc=See%20the%20defect.%20File%20the%20complaint.%20Fix%20the%20city.&descAlignY=60&descSize=16" alt="VisionGuard AI 2.0" width="100%"/>
+<br/>
 
-### 🛡️ Gemini-Powered Multimodal Infrastructure Defect Detection Platform
+# 🛡️ VisionGuard AI 2.0
+
+### Multimodal AI Infrastructure Defect Detection Platform
+
+*See the defect. File the complaint. Fix the city.*
 
 <a href="https://github.com/szeeshanZ123/visionGuard">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=3B82F6&center=true&vCenter=true&width=720&lines=Upload+a+photo+of+a+road+or+building;Gemini+Vision+finds+every+visible+defect;OpenCV+draws+severity-coded+overlays;One+click+to+a+formal+civic+complaint+PDF" alt="Typing animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=3B82F6&center=true&vCenter=true&width=720&lines=Upload+a+photo+of+a+road+or+building;Vision+AI+finds+every+visible+defect;OpenCV+draws+severity-coded+overlays;One+click+to+a+formal+civic+complaint+PDF" alt="Typing animation"/>
 </a>
 
 <br/>
@@ -18,10 +24,10 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10--3.14-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-3.1-000000?style=flat-square&logo=flask&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google-Gemini%20Vision-4285F4?style=flat-square&logo=google&logoColor=white)
+![Google AI](https://img.shields.io/badge/Google-Multimodal%20Vision-4285F4?style=flat-square&logo=google&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Annotation-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![Tests](https://img.shields.io/badge/Tests-81%20Passing-22C55E?style=flat-square)
-![Free Tier](https://img.shields.io/badge/Gemini-Free%20Tier%20Safe-F59E0B?style=flat-square)
+![Free Tier](https://img.shields.io/badge/AI%20API-Free%20Tier%20Safe-F59E0B?style=flat-square)
 ![License](https://img.shields.io/badge/License-[ADD%20LICENSE]-blue?style=flat-square)
 
 <br/>
@@ -37,8 +43,8 @@
 | | |
 |---|---|
 | **🎯 Problem** | Road and building defects go unreported because inspection is slow and citizens have no easy way to file evidence-backed complaints. |
-| **💡 Solution** | Upload one photo. Gemini Vision finds every visible defect, OpenCV marks it, and the citizen files a formal complaint PDF pinned on a live map. |
-| **🧠 Core Tech** | Google Gemini Multimodal Vision · OpenCV · Flask · ReportLab · Leaflet.js |
+| **💡 Solution** | Upload one photo. Multimodal Vision AI finds every visible defect, OpenCV marks it, and the citizen files a formal complaint PDF pinned on a live map. |
+| **🧠 Core Tech** | Google Multimodal Vision AI · OpenCV · Flask · ReportLab · Leaflet.js |
 | **✅ Proof** | 81 automated tests passing across AI inference, security and complaint workflows. |
 | **🔒 Responsible AI** | Every result is labeled a *preliminary visual assessment*, never a certified survey. |
 
@@ -93,7 +99,7 @@ Potholes, wall cracks, damp patches and spalling concrete are direct safety haza
 | Step | What happens |
 |:---:|---|
 | 1️⃣ | Citizen uploads a road or building photo |
-| 2️⃣ | Gemini Vision identifies and itemizes defects (`[D001]`, `[D002]`) |
+| 2️⃣ | Multimodal Vision AI identifies and itemizes defects (`[D001]`, `[D002]`) |
 | 3️⃣ | OpenCV draws severity-coded boxes on a copy of the photo |
 | 4️⃣ | An inspection report is generated (`#VG-xxx`) |
 | 5️⃣ | Citizen reads safety guidance **or** files a complaint with PDF and map pin |
@@ -109,7 +115,7 @@ journey
       Take a photo of the defect: 5: Citizen
       Upload to Inspection Studio: 5: Citizen
     section Analyse
-      Gemini Vision detects defects: 5: AI
+      Vision AI detects defects: 5: AI
       OpenCV renders overlays: 5: AI
       Report is compiled: 5: AI
     section Act
@@ -217,7 +223,7 @@ journey
 ```mermaid
 flowchart LR
     A[👤 Citizen uploads photo] --> B[Flask Backend<br/>CSRF + Auth]
-    B --> C[Gemini Vision<br/>google-genai SDK]
+    B --> C[Multimodal Vision AI<br/>google-genai SDK]
     C -->|Structured JSON:<br/>defects, severity, boxes| D[Coordinate Validation<br/>normalized 0.0 to 1.0]
     D --> E[OpenCV Annotation<br/>non-destructive overlay]
     E --> F[AI Inspection Report<br/>#VG-xxx]
@@ -235,9 +241,9 @@ flowchart LR
 <details>
 <summary><b>🧠 AI model management</b></summary>
 
-- **Engine:** Google Gemini Multimodal Vision via the official `google-genai` SDK
-- **Active model:** `gemini-3.1-flash-lite`, set with `GEMINI_MODEL`
-- **Fallback rotation:** `gemini-flash-latest` → `gemini-3.8-flash` → `gemini-2.5-flash`
+- **Engine:** Google Multimodal Vision AI via the official `google-genai` SDK
+- **Active model:** a free-tier eligible, high-throughput vision model, set with the `AI_MODEL` environment variable
+- **Fallback rotation:** if the primary model hits rate limits or a version change, the engine automatically rotates across a list of backup vision models
 - **Research artifacts:** legacy YOLO weights (`ai/models/best.pt`, `home_best.pt`) are kept only for offline ablation studies and are **not** used in production
 
 </details>
@@ -248,7 +254,7 @@ flowchart LR
 
 | Layer | Technology |
 |---|---|
-| 🧠 **AI Vision** | Google Gemini Multimodal Vision · `google-genai` SDK |
+| 🧠 **AI Vision** | Google Multimodal Vision AI · `google-genai` SDK |
 | 🎨 **Annotation** | OpenCV (`opencv-python`) |
 | ⚙️ **Backend** | Python 3.10+ · Flask 3.1 |
 | 🖥️ **Server** | Waitress (Windows) · Gunicorn (Linux) |
@@ -271,7 +277,7 @@ flowchart LR
 ```text
 visionGuard/
 ├── ai/
-│   ├── gemini_service.py      # Gemini vision, defect analysis, model fallback
+│   ├── vision_service.py      # Vision AI calls, defect analysis, model fallback
 │   └── models/                # Legacy YOLO weights (research only)
 ├── database/
 │   └── db.py                  # SQLite / PostgreSQL persistence
@@ -285,13 +291,13 @@ visionGuard/
 └── .env.example
 ```
 
-> ✏️ [ADD: adjust any folder that differs from your real repo]
+> ✏️ [ADD: adjust any folder or file name that differs from your real repo]
 
 ---
 
 ## 🚀 Getting Started
 
-**Prerequisites:** Python 3.10 to 3.14 · `venv` · internet access · a free [Gemini API key](https://aistudio.google.com/)
+**Prerequisites:** Python 3.10 to 3.14 · `venv` · internet access · a free API key from [Google AI Studio](https://aistudio.google.com/)
 
 ```bash
 # 1. Clone
@@ -319,9 +325,9 @@ Open **http://127.0.0.1:5000** 🎉
 <summary><b>🔑 Environment variables</b></summary>
 
 ```env
-AI_PROVIDER=gemini
-GEMINI_API_KEY=your_actual_gemini_api_key_here
-GEMINI_MODEL=gemini-3.1-flash-lite
+AI_PROVIDER=google
+AI_API_KEY=your_actual_api_key_here
+AI_MODEL=your_vision_model_name_here
 VISIONGUARD_SECRET_KEY=your_random_64_character_secret_key_here
 VISIONGUARD_DB_PATH=data/visionguard.db
 STORAGE_BACKEND=local
@@ -346,7 +352,7 @@ Get an API key: open [Google AI Studio](https://aistudio.google.com/), sign in, 
 1. **Sign in** as a citizen (session security and CSRF protection are active).
 2. **Open Inspection Studio** (`/create_home`) and choose *Road Surface Distress* or *Home & Building Defect*.
 3. **Upload a photo**, e.g. `data/evaluation_benchmark/images/benchmark_08_d20_alligator_urban.jpg`.
-4. **Click Detect Defect.** Watch five steps: Upload → Gemini analysis → Defect and severity identification → OpenCV overlay → Report compilation.
+4. **Click Detect Defect.** Watch five steps: Upload → Vision AI analysis → Defect and severity identification → OpenCV overlay → Report compilation.
 5. **Toggle** between the annotated overlay and the original photo.
 6. **Review the report:** severity badge, summary, itemized defects, repair recommendations.
 7. **Choose a pathway:**
@@ -405,7 +411,7 @@ python -m pytest tests/ -v
 
 ## 🗺️ Roadmap
 
-- [x] Gemini multimodal defect detection
+- [x] Multimodal AI defect detection
 - [x] Multi-defect itemization with OpenCV overlays
 - [x] Complaint workflow with PDF export
 - [x] Interactive defect map
@@ -424,33 +430,33 @@ python -m pytest tests/ -v
 
 <table>
   <tr>
-    <td align="center" width="220">
+    <td align="center" width="180">
       <a href="https://github.com/szeeshanZ123">
-        <img src="https://avatars.githubusercontent.com/u/222632383?v=4" width="110" alt="Zeeshan"/><br/>
+        <img src="https://avatars.githubusercontent.com/u/222632383?v=4" width="100" alt="Zeeshan"/><br/>
         <b>Zeeshan</b>
       </a><br/>
       <sub>[ADD: ROLE]</sub><br/><br/>
       <a href="https://github.com/szeeshanZ123"><img src="https://img.shields.io/badge/GitHub-szeeshanZ123-181717?style=flat-square&logo=github" alt="GitHub"/></a>
     </td>
-    <td align="center" width="220">
+    <td align="center" width="180">
       <a href="https://github.com/Sandesh-Narkar">
-        <img src="https://avatars.githubusercontent.com/u/267092211?s=400&u=7d09b000dc3681a650dbe37a1e7cd35a467d52f2&v=4" width="110" alt="Sandesh"/><br/>
+        <img src="https://avatars.githubusercontent.com/u/267092211?s=400&u=7d09b000dc3681a650dbe37a1e7cd35a467d52f2&v=4" width="100" alt="Sandesh"/><br/>
         <b>Sandesh</b>
       </a><br/>
       <sub>[ADD: ROLE]</sub><br/><br/>
       <a href="https://github.com/Sandesh-Narkar"><img src="https://img.shields.io/badge/GitHub-Sandesh--Narkar-181717?style=flat-square&logo=github" alt="GitHub"/></a>
     </td>
-    <td align="center" width="220">
+    <td align="center" width="180">
       <a href="https://github.com/Yaswanth8407">
-        <img src="https://avatars.githubusercontent.com/u/217727881?v=4" width="110" alt="Yaswanth"/><br/>
+        <img src="https://avatars.githubusercontent.com/u/217727881?v=4" width="100" alt="Yaswanth"/><br/>
         <b>Yaswanth</b>
       </a><br/>
       <sub>[ADD: ROLE]</sub><br/><br/>
       <a href="https://github.com/Yaswanth8407"><img src="https://img.shields.io/badge/GitHub-Yaswanth8407-181717?style=flat-square&logo=github" alt="GitHub"/></a>
     </td>
-    <td align="center" width="220">
+    <td align="center" width="180">
       <a href="https://github.com/Sifatshaikh07">
-        <img src="https://github.com/Sifatshaikh07.png" width="110" alt="Sifat Shaikh"/><br/>
+        <img src="https://github.com/Sifatshaikh07.png" width="100" alt="Sifat Shaikh"/><br/>
         <b>Sifat Shaikh</b>
       </a><br/>
       <sub>[ADD: ROLE]</sub><br/><br/>
@@ -459,10 +465,12 @@ python -m pytest tests/ -v
   </tr>
 </table>
 
-<a href="https://github.com/szeeshanZ123/visionGuard/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=szeeshanZ123/visionGuard" alt="Contributors graph"/>
-</a>
+<br/>
 
+<a href="https://github.com/szeeshanZ123"><img src="https://wsrv.nl/?url=github.com/szeeshanZ123.png&w=120&h=120&fit=cover&mask=circle" width="60" alt="Zeeshan"/></a>
+<a href="https://github.com/Sandesh-Narkar"><img src="https://wsrv.nl/?url=github.com/Sandesh-Narkar.png&w=120&h=120&fit=cover&mask=circle" width="60" alt="Sandesh"/></a>
+<a href="https://github.com/Yaswanth8407"><img src="https://wsrv.nl/?url=github.com/Yaswanth8407.png&w=120&h=120&fit=cover&mask=circle" width="60" alt="Yaswanth"/></a>
+<a href="https://github.com/Sifatshaikh07"><img src="https://wsrv.nl/?url=github.com/Sifatshaikh07.png&w=120&h=120&fit=cover&mask=circle" width="60" alt="Sifat Shaikh"/></a>
 </div>
 
 ---
@@ -470,7 +478,6 @@ python -m pytest tests/ -v
 ## 🙏 Acknowledgements
 
 - **NEURA X 2026** organizers, mentors and judges
-- [Google Gemini](https://ai.google.dev/) and Google AI Studio
 - OpenCV · Flask · ReportLab · Leaflet.js · Tailwind CSS · Neon · Cloudflare R2
 
 ---
@@ -487,12 +494,10 @@ Licensed under **[ADD: LICENSE]**. See `LICENSE` for details.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:1D4ED8,100:0F172A&height=110&section=footer" width="100%" alt="footer wave"/>
-
 **Built with ❤️ for NEURA X 2026 — Global Hackathon 2K26**
 
 *If VisionGuard impressed you, please ⭐ the repo.*
 
-[⬆ Back to top](#️-visionguard-ai-20)
+[⬆ Back to top](#top)
 
 </div>
